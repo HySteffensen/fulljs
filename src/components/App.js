@@ -6,12 +6,8 @@ class App extends React.Component {
     pageHeader: 'Naming Contests'
   };
   componentDidMount() {
-    // timers, listeners
-    console.log('did mount');
   }
   componentWillUnmount() {
-    // clean timers, listeners
-    console.log('will Unmount');
   }
   render() {
     return (
